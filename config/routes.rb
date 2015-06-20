@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
- resources :customeres
+ resources :customers
 #   get 'customers/index'
 
 #   get 'customers/new'
