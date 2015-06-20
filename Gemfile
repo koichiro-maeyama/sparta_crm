@@ -45,6 +45,7 @@ group :development, :test do
   gem 'faker'           #本物っぽいテストデータ作成
   gem 'faker-japanese'  #本物っぽいテストデータ作成　日本語対応
   gem 'rails-erd'
+  gem 'ransack'
 
 end
 
