@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'kaminari'
 gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -47,6 +48,10 @@ group :development, :test do
   gem 'faker-japanese'  #本物っぽいテストデータ作成　日本語対応
   gem 'rails-erd'
   gem 'ransack'
+  gem 'carrierwave'
+  gem 'mini_magick', '3.8.0'
+  gem 'annotate'
+  gem 'better_errors'
 
 end
 

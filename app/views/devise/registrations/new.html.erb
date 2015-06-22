@@ -18,6 +18,10 @@
       <%= f.email_field :email, class: "form-control" %>
     </div>
     <div class="form-group">
+      画像URL<br />
+      <%= f.text_field :image_url, class: "form-control" %>
+    </div>
+    <div class="form-group">
       パスワード
       <% if @minimum_password_length %>
       <em>(<%= @minimum_password_length %> 文字以上が必要です)</em>
